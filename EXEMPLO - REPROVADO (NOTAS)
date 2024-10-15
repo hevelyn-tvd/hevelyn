@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+  real nota1, nota2, notafinal
+
+  escreva("Digite a primeira nota: \n")
+  leia(nota1)
+  escreva("Digite a segunda nota: \n")
+  leia(nota2) 
+
+  notafinal = nota1+nota2
+
+  escreva("nota final= \n", notafinal)
+
+  se(notafinal < 60) 
+  escreva(" REPROVADO \n")
+  }
+}

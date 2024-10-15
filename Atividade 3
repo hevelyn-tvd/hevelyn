@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+  // ler um numero e dizer se e par ou impar
+  inteiro a 
+  escreva(" Digite um numero ")  
+  leia(a)
+  // resto da divisao de a por 3 é igual a 2?
+  se(a%2==0)
+  escreva("par \n")
+  senao
+  escreva("impar \n")
+  }
+}

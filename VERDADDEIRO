@@ -1,0 +1,8 @@
+programa {
+  funcao inicio() {
+  escreva(verdadeiro ou falso)
+  escreva("\n")
+  escreva(verdadeiro e verdadeiro)
+    
+  }
+}

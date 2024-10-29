@@ -1,0 +1,8 @@
+produto = input('Digite o nome do produto')
+valor = float(input('Digite o valor do seu produto'))
+
+desconto = valor*0.10
+
+print('Nome do produto: ', produto)
+print('Valor do produto: ', valor)
+print('Valor do desconto: ', desconto)

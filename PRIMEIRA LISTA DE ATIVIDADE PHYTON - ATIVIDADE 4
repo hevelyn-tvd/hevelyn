@@ -1,0 +1,6 @@
+Num1 = int(input('Digite o 1º numero'))
+Num2 = int(input('Digite o 2º numero'))
+Num3 = int(input('Digite o 3º numero'))
+Soma = (Num1 + Num2 + Num3)
+Media= Soma / 3
+print('A media dos numeros é: ', Media)

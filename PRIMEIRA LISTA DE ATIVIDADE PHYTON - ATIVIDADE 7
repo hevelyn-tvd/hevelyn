@@ -1,0 +1,10 @@
+nome = input('Digite o seu nome')
+salario = float(input('Digite o seu salario'))
+print()
+inss = salario*0.10
+vt = salario*0.06
+liquido = salario-(inss+vt)
+print('O salario bruto do ', nome, "é", salario)
+print('O valor descontado pelo inss é de ', inss)
+print('O valor descontado pelo vt é de ', vt)
+print('O valor líquido do salário do ', nome, 'é de ', liquido)

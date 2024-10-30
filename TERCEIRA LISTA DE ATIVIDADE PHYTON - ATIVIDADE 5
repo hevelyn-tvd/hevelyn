@@ -1,0 +1,10 @@
+Real = float(input('Digite o valor em real'))
+Resposta = input('Digite a moeda a ser convertida: ')
+
+if Resposta == 'Euro':
+    Euro = Real/6.26
+    print('Euro: ', Euro)
+    
+elif Resposta == 'Dolar':
+    Dolar = Real/5.76
+    print('Dolar: ', Dolar)

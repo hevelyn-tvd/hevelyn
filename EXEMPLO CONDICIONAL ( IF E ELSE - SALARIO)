@@ -1,0 +1,6 @@
+Salario = float(input('Digite o seu salário: '))
+if Salario >=2000:
+    Reajuste = Salario + Salario*0.10
+    print("O novo Salario é: ", Reajuste)
+else:
+    print('Reajuste não permitido!')

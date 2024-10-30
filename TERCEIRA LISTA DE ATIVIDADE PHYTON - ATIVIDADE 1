@@ -1,0 +1,7 @@
+print('Digite a sua idade ')
+Idade = int(input())
+Nome = input('Digite o seu nome')
+if Idade >= 18:
+    print('É maior de idade')
+else:
+    print('Não é maior de idade')

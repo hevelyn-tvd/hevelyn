@@ -1,0 +1,14 @@
+Nome = input('Digite o seu nome')
+Peso = float(input("Digite o seu peso"))
+Altura = float(input('Digite a sua altura'))
+IMC = Peso/Altura**2
+if IMC>20 and IMC<24:
+    print('Peso normal')
+elif IMC<20:
+    print('Abaixo do peso')
+elif IMC>25 and IMC<29:
+    print('Excesso de peso')
+elif IMC>30 and IMC<35:
+    print('Obesidade')
+elif IMC>35:
+    print('Super obesidade')

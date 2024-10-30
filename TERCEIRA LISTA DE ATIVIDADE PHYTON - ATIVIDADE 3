@@ -1,0 +1,9 @@
+print('Digite o seu salario ')
+Salario = int(input())
+Nome = input('Digite o seu nome')
+if Salario <2000:
+    print('Desconto não aplicavel')
+else:
+    Desconto = Salario-Salario*0.10
+    Reajuste = Salario-Salario*0.10
+    print('O novo salario é: ', Reajuste)

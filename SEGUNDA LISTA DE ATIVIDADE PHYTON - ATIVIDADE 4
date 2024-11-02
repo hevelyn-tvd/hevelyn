@@ -1,0 +1,2 @@
+TemperaturaC = float(input('Digite uma temperatura em Celcius'))
+print(TemperaturaC*273.15)

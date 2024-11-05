@@ -1,0 +1,4 @@
+Numero = int(input('Digite um numero'))
+Potencia = int(input('Digite uma potencia'))
+print(int(Numero**Potencia))
+print('O resultado é:', Numero**Potencia)

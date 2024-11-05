@@ -1,0 +1,7 @@
+Num1 = int(input('Digite o primeiro numero'))
+Num2 = int(input('Digite o segundo numero'))
+if Num2 == 0 :
+    print('Não é possivel dividir um numero por 0')
+else :
+    resultado = Num1/Num2
+    print("O resultado da divisão é ", resultado)

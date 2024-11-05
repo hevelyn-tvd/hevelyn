@@ -1,0 +1,20 @@
+Num1 = int(input('Digite o primeiro numero'))
+Num2 = int(input('Digite o segundo numero'))
+print('Escolha um operador:\n'
+    '1 - Soma\n'
+    '2 - Subtração\n'
+    '3 - Multiplicação\n'
+    '4 - Divisão\n')
+operacao = input('Digite a operação a realizar (1,2,3 ou 4):')
+if operacao == '1':
+    resultado = Num1+Num2
+    print('O resultado da Soma', 'é', resultado)
+elif operacao == '2':
+    resultado = Num1-Num2
+    print('O resultado da Subtração', 'é', resultado)
+elif operacao == '3':
+    resultado = Num1*Num2
+    print('O resultado da Multiplicação', 'é', resultado)
+elif operacao == '4':
+    resultado = Num1/Num2
+    print('O resultado da Divisão', 'é', resultado)

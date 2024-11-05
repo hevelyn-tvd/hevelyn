@@ -1,0 +1,10 @@
+Pessoa1 = input('Digite o nome da primeira pessoa')
+Idade1 = int(input('Digite a idade da primeira pessoa'))
+Pessoa2 = input('Digite o nome da segunda pessoa')
+Idade2 = int(input('Digite a idade da segunda pessoa'))
+if Idade1>Idade2:
+    print(Pessoa1, ' é mais velha que ', Pessoa2)
+elif Idade1<Idade2:
+    print(Pessoa2, ' é mais velha que ', Pessoa1)
+elif Idade1==Idade2:
+    print('As duas têm a mesma idade')

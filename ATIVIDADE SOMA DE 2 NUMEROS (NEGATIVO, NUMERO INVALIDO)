@@ -1,0 +1,9 @@
+Num1 = int(input('Digite o primeiro numero'))
+Num2 = int(input('Digite o segundo numero'))
+if Num1<0 :
+    print('Numero invalido. Insira somente numeros positivos')
+elif Num2<0:
+    print('Numero invalido. Insira somente numeros positivos')
+else:
+    resultado = Num1+Num2 
+    print('A soma dos dois numeros é ', resultado)

@@ -1,0 +1,27 @@
+Nome = input('Digite o seu nome')
+Idade = int(input('Digite a sua idade'))
+
+P1 = int(input('Tem estado mais isolado ultimamente? 1-sim / 0-não'))
+P2 = int(input('Tem estado irritado ou agitado mais que o normal? 1-sim / 0-não'))
+P3 =  int(input('Sente com freqüência a sensação de que algo ruim está para acontecer? 1-sim / 0-não'))
+P3 = int(input('Você percebeu alguma alteração no seu sono, como insônia, dificuldades para dormir? 1-sim / 0-não'))
+P4 = int(input('Costuma usar alguma substância para se acalmar? 1-sim / 0-não'))
+P5 = int(input('Sua memória e agilidade de raciocínio pioraram? 1-sim / 0-não'))
+P6 = int(input('Você está mais triste que o habitual? 1-sim / 0-não'))
+P7 = int(input('Na última semana você se incomodou com Inquietação nas Pernas? 1-sim / 0-não'))
+P8 = int(input('Na última semana você ficou com Medo de que algo de ruim aconteça? 1-sim / 0-não'))
+P9 = int(input('Na última semana você ficou Atordoado(a) ou com Tontura? 1-sim / 0-não'))
+P10 = int(input('Na última semana você se incomodou com Palpitação ou Aceleração do batimento cardíaco? 1-sim / 0-não'))
+P11 = int(input('Na última semana você ficou Nervoso(a)? 1-sim / 0-não'))
+P12 = int(input('Na última semana você ficou com Dificuldade em Respirar? 1-sim / 0-não'))
+
+Soma = P1+P2+P3+P4+P5+P6+P7+P8+P9+P10+P11+P12
+
+if Soma<=5:
+    print('Nível baixo de ansiedade')
+elif Soma>5<8:
+    print('Nivel moderado de ansiedade')
+elif Soma>8<10:
+    print('Nivel alto de ansiedade')
+elif Soma==12:
+    print('SOCORROO!!!!!')

@@ -1,0 +1,6 @@
+País = input('Digite o nome de um país') # O programa recebe a variavel
+Contador = 1 
+while Contador<=6: # Enquanto o valor do contador for menor ou igual à 6 o progrma irá repetir o contador
+    País = input('Digite o nome de um novo país')
+    Contador = Contador+1
+print('O programa foi finalizado!')

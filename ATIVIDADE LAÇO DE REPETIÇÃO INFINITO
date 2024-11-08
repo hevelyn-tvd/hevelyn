@@ -1,0 +1,9 @@
+Nome = input('Digite o nome de uma pessoa')  # O programa recebe a variavel
+Idade = int(input('Digite a idade dessa pessoa'))  # O programa recebe a variavel
+while True:  # Enquanto o programa pedir um novo nome será digitado
+    Novo_nome = input('Insira um novo nome')
+    print ('Nome digitado: ', Novo_nome)
+    Resposta = input ('Deseja inserir um novo nome? sim / não')
+    if Resposta == 'não': #o programa finaliza o laço de repetição
+        break
+print('Finalizado!')

@@ -1,0 +1,13 @@
+while True:
+    Nome = input('Digite o nome de uma pessoa')  # O programa recebe a variavel
+    Idade = int(input('Digite a idade dessa pessoa'))  # O programa recebe a variavel
+    Sexo = input('Digite o sexo dessa pessoa')  # O programa recebe a variavel
+    print('Nome digitado: ', Nome)
+    print('Idade digitada: ', Idade)
+    print('Sexo digitado: ', Sexo)
+    Resposta = input('Deseja inserir novos dados? sim / não')
+    if Resposta == 'sim':
+        continue
+    else: 
+        break
+print('O programa finalizou')

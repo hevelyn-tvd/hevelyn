@@ -1,0 +1,7 @@
+while True:
+    Numero = input('Insira um numero: ')
+    print ('Numero digitado: ', Numero)
+    Resposta = input ('Deseja inserir um novo numero? sim / não')
+    if Resposta == 'não':
+        break
+print ('Que pena que você não quer mais brincar!')

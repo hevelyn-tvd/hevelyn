@@ -1,0 +1,12 @@
+Nome = input('Digite o nome do produto') # O programa recebe a variavel
+Preço_inicial = float(input('Digite o preço do produto')) # O programa recebe outra variavel
+if Preço_inicial<2000: # Atendendo a condição de ser menor que 2000 o preço tem desconto 0
+    print('Sem desconto')
+    Preço_final = Preço_inicial
+    Desconto = 0
+else:
+    Desconto = Preço_inicial*0.20 # Atendendo a condição de ser maior que 2000 o programa calcula o valor do desconto e o do preço final de acordo com o preço que eu digitar
+    Preço_final = Preço_inicial - Desconto
+    print('O preço do produto com desconto é: ', Preço_final)
+    
+print('O produto é um: ', Nome, '\n', 'Com um preço de: ', Preço_inicial, '$', '\n', 'Contendo um desconto de: ', Desconto, '$', '\n', 'E com um preço final de: ', Preço_final, '$')

@@ -1,0 +1,12 @@
+Nome = input('Digite o nome do produto')
+Preço_inicial = float(input('Digite o preço do produto'))
+if Preço_inicial<2000:
+    print('Sem desconto')
+    Preço_final = Preço_inicial
+    Desconto = 0
+else:
+    Desconto = Preço_inicial*0.20
+    Preço_final = Preço_inicial - Desconto
+    print('O preço do produto com desconto é: ', Preço_final)
+    
+print('O produto é um: ', Nome, '\n', 'Com um preço de: ', Preço_inicial, '$', '\n', 'Contendo um desconto de: ', Desconto, '$', '\n', 'E com um preço final de: ', Preço_final, '$')

@@ -1,0 +1,10 @@
+while True: 
+    Num1 = int(input('Digite o primeiro numero'))
+    Num2 = int(input('Digite o segundo numero'))
+    Num3 = int(input('Digite o terceiro numero'))
+    MÉDIA = print((Num1+Num2+Num3)/3)
+    Resposta = input('Deseja continuar? S / N')
+    if Resposta  == 'S':
+       continue
+
+print('Programa finalizado!')

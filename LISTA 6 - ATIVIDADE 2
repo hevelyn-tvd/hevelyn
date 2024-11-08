@@ -1,0 +1,8 @@
+Nome = input('Digite o nome de uma pessoa')  # O programa recebe a variavel (entrada de dados)
+Idade = int(input('Digite a idade dessa pessoa'))  # O programa recebe a variavel (entrada de dados)
+Contador = 1 
+while Contador<=5:
+    Nome = input('Digite o nome de uma pessoa') 
+    Idade = int(input('Digite a idade dessa pessoa'))
+    Contador = Contador+1 # Enquanto o valor do contador for menor ou igual à 5 o progrma irá repetir o contador
+print('O programa finalizou!')

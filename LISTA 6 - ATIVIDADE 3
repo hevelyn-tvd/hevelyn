@@ -1,0 +1,8 @@
+Usuario = input('Digite o usuario')
+Senha = input('Digite a senha')
+if Usuario!='admin' and Senha!='123456':
+    print('Dados incorretos!', 'Insira os dados novamente!')
+    input('Digite o usuario')
+    input('Digite a senha')
+elif Usuario == 'admin' and Senha == '123456':
+    print("Usuario, seja bem-vindo!")

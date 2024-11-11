@@ -1,0 +1,11 @@
+while True:  
+    # Declaração das variaveis
+    Nome = input('Digite o nome de uma pessoa')
+    Peso = int(input('Digite o peso dessa pessoa'))
+    Altura = float(input('Digite a altura dessa pessoa'))
+    IMC = Peso/Altura**2
+    print('O nome da pessoa é', Nome, '\n', 'Essa pessoa pesa ', Peso, 'kg', '\n', 'E tem uma altura de ', Altura, 'cm', '\n', 'Calculando seu IMC temos ', IMC)
+    Resposta = input('Deseja fazer uma nova conversão? Sim / Não')
+    if Resposta == 'Não':
+        break
+print('Programa finalizado!')

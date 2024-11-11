@@ -1,0 +1,14 @@
+Nome = input("Digite o nome do aluno")
+Nota1 = int(input('Digite a primeira nota'))
+Nota2 = int(input('Digite a segunda nota'))
+Nota3 = int(input('Digite a terceira nota'))
+Nota4 = int(input('Digite a quarta nota'))
+Soma = Nota1+Nota2+Nota3+Nota4
+Resultado = print('A somatoria das notas é: ', Soma)
+print('O aluno (a):', Nome, ',', 'esta: ')
+if Soma<40: 
+    print('Reprovado!')
+elif Soma>40 and Soma<59:
+    print('Recuperação!')
+elif Soma>=60:
+    print('Aprovado!')

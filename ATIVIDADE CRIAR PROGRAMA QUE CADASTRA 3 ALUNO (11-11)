@@ -1,0 +1,7 @@
+Nome1 = input('Digite o nome do primeiro aluno')
+Nota1 = input('Digite a primeira idade')
+Nome2 = input('Digite o nome do segundo aluno')
+Nota2 = input('Digite a segunda idade')
+Nome3 = input('Digite o nome do terceiro aluno')
+Nota3 = input('Digite a terceira idade')
+print('O nome do primeiro aluno é ', Nome1, 'e ele obteve nota ', Nota1, '\n', 'O nome do segundo aluno é ', Nome2, 'e ele obteve nota ', Nota2, '\n', 'O nome do terceiro aluno é ', Nome3, 'e ele obteve nota ', Nota3)

@@ -1,0 +1,14 @@
+while True:
+    # Declaração das variaveis
+    Real = int(input('Digite o valor em Real'))
+    Dolar = Real/5.76
+    Euro = Real/6.13
+    input('Deseja converter para Dolar ou Euro? Dolar / Euro')
+    if Dolar:
+        print(Dolar)
+    elif Euro:
+        print(Euro)
+    Resposta = input('Deseja fazer uma nova conversão? Sim / Não')
+    if Resposta != 'Sim': 
+        break
+print('Programa finalizado!')

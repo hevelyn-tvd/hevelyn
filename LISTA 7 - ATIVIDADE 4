@@ -1,0 +1,11 @@
+# São inseridas as variaveis
+Numeros = []
+Contador = 1
+while Contador<=4: # Verifica a condição enquanto o contador for igual ou menor que 4
+    Numero = input('Digite um numero')
+    Numeros.append(Numero)
+    Contador = Contador+1
+print('\nNumero inseridos')
+print('Programa finalizado!')
+for Numero in Numeros:
+    print (Numero)

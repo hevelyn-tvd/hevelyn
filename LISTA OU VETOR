@@ -1,0 +1,10 @@
+nomes = []
+while True:
+    nome = input('Digite um nome: ')
+    nomes.append(nome)
+    continuar = input('Deseja inserir um novo nome? (s/n): ')
+    if continuar != 's' and continuar == 'n':
+        break
+print('\nNomes inseridos:')
+for nome in nomes:
+    print(nome)

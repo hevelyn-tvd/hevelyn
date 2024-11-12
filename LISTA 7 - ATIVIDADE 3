@@ -1,0 +1,11 @@
+Dados = []
+
+while True:
+    Usuario = input('Digite o usuario')
+    Senha = input('Digite a senha')
+    Dados.append((Usuario, Senha))
+    Resposta = input('Deseja inserir os dados novamente? sim / não')
+    if Resposta != 'sim':
+        break
+for Dado in Dados:
+    print (Dado [0], Dado[1])

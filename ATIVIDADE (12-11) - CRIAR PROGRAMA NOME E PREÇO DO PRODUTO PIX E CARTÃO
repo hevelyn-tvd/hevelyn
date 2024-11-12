@@ -1,0 +1,10 @@
+Nome = input("Digite o nome do produto")
+Preco = int(input("Digite o preço do produto"))
+Forma_de_pagamento = input('Qual a forma de pagamento?  Pix / Cartão')
+if Forma_de_pagamento == 'Cartão':
+    Preco_final1 = Preco
+    print('Sem desconto')
+else:
+    Pix = Preco*0.15
+    Preço_final = Preco - Pix
+    print('O valor do produto pago no pix é ', Preço_final, '$')

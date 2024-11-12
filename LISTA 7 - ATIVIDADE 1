@@ -1,0 +1,9 @@
+Nomes = []
+while True:
+    Nome = input('Digite um nome')
+    Nomes.append(Nome)
+    Resposta = input('Deseja inserir outro nome? sim / não')
+    if Resposta != 'sim':
+        break
+for Nome in Nomes:
+    print (Nome)

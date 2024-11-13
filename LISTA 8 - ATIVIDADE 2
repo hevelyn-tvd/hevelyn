@@ -1,0 +1,13 @@
+while True:
+    Nome = input('Digite o nome de uma pessoa')
+    Idade = int(input('Digite a idade'))
+    if Idade>=18 and Idade<=70:
+        print("Voto obrigatório")
+    elif Idade>=16 and Idade<18:
+        print('Voto facultativo')
+    else:
+        print('Não precisa votar')
+    Escolha = input("Deseja inserir novos dados? sim / não")
+    if Escolha == 'não':
+        break
+print("Programa finalizado!")

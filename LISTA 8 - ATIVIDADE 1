@@ -1,0 +1,10 @@
+Pessoas = []
+Contador = 1
+while Contador<=7:
+    Nome = input('Digite um nome: ')
+    Idade = input('Digite uma idade: ')
+    Pessoas.append((Nome, Idade))
+    Contador = Contador+1 
+for Pessoa in Pessoas:
+    print(Pessoa[0], Pessoa[1])
+print('O programa foi finalizado!')

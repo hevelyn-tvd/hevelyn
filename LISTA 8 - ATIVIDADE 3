@@ -1,0 +1,12 @@
+while True:
+    Usuario = input("Digite um usuario")
+    Senha = input('Digite uma senha')
+    if Usuario == 'Jesus' and Senha == '2024':
+        Funcionário = input('Digite um nome para o funcionario')
+        Salário = float(input('Digite o salario do funcionario'))
+        Reajuste = float(Salário*0.10)
+        Novo_salario = float(Salário+Reajuste)
+        print('O nome do funcionário é ', Funcionário, '\n', 'O salario desse funcionário é ', Salário, '$', '\n', 'O reajuste sofrido foi de ', Reajuste, '%', '\n', 'E o novo salario é ', Novo_salario, '$')
+        break
+    else:
+        print('Dados incorretos! Insira os dados novamente.')

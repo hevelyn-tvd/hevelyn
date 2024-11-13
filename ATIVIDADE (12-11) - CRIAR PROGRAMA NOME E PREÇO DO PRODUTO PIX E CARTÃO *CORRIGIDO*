@@ -1,0 +1,16 @@
+while True:
+    Nome = input("Digite o nome do produto")
+    Preco = int(input("Digite o preço do produto"))
+    Forma_de_pagamento = input('Qual a forma de pagamento?  Pix / Cartão')
+    if Forma_de_pagamento == 'Cartão':
+        Preco_final1 = Preco
+        print('Sem desconto')
+    else:
+        Pix = Preco*0.15
+        Preço_final = Preco - Pix
+        print('O nome do produto é', Nome, '\n', 'O produto vale', Preco, '$', '\n', 'Possui um desconto de', Pix, '$', '\n', 'E seu preço final é', Preço_final, '$')
+    Nova_venda = input('Deseja fazer uma nova venda? sim / não')
+    if Nova_venda !=  'sim':
+        break
+print('Programa finalizado!')
+        
